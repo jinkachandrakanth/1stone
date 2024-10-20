@@ -16,7 +16,7 @@ const PORT = 6001;
 app.use(cors(
     {
 
-    origin: ["https://deploy-meffn-1whq.ve|cel.app"],
+    origin: ["https://1stone-nine.vercel.app/"],
     methods : ["POST", "GET"],
     credentials: true
     }
