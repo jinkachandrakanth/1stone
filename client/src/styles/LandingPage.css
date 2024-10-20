@@ -7,7 +7,7 @@
     width: 100%;
     height: 100vh;
     padding-top: 10vh;
-    background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.053),rgba(0, 0, 0, 0.493)), url('C:\Users\Chandu\Desktop\vs codeee\flight booking\client\src\image.png');
+    background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.053),rgba(0, 0, 0, 0.493)), url('../image.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
