@@ -5,7 +5,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image:  url('C:\Users\Chandu\Desktop\vs codeee\flight booking\client\src\Default_A_cinematic_photograph_of_a_commercial_airliner_taking_0.jpg');
+    background-image:  url('../Default_A_cinematic_photograph_of_a_commercial_airliner_taking_0.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
