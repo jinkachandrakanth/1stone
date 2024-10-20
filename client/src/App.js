@@ -18,6 +18,8 @@ import FlightAdmin from './pages/FlightAdmin';
 import FlightBookings from './pages/FlightBookings.jsx';
 import Flights from './pages/Flights.jsx';
 
+const DEPLOYMENT_URL = 'https://1stone-nine.vercel.app/';
+
 function App() {
   return (
     <div className="App">
