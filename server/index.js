@@ -16,7 +16,7 @@ const PORT = 6001;
 app.use(cors(
     {
 
-    origin: ["https://1stone-zsj5.vercel.app"],
+    origin: ["https://1stone-9z4l.vercel.app"],
     methods : ["POST", "GET"],
     credentials: true
     }
