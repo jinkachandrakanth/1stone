@@ -23,14 +23,14 @@ app.use(cors(
     
 ));
 
-// mongoose.connect('mongodb+srv://chandrakkanthjinka2021:20-10-24@presentations.8x1pr.mongodb.net/presentations?retryWrites=true&w=majority&appName=presentations');
+mongoose.connect('mongodb+srv://chandrakkanthjinka2021:20-10-24@presentations.8x1pr.mongodb.net/presentations?retryWrites=true&w=majority&appName=presentations');
 
 
 // Improved Mongoose connection with detailed error logging
-mongoose.connect('mongodb+srv://chandrakkanthjinka2021:20-10-24@presentations.8x1pr.mongodb.net/', {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-})
+// mongoose.connect('mongodb+srv://chandrakkanthjinka2021:20-10-24@presentations.8x1pr.mongodb.net/', {
+//     useNewUrlParser: true,
+//     useUnifiedTopology: true,
+// })
     .then(() => {
         console.log('Connected to MongoDB');
 
